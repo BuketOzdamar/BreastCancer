@@ -44,9 +44,9 @@ Her model için:
 
 Doğruluk (accuracy)
 
-Karışıklık matrisi
+F1
 
-Sınıflandırma raporu (precision, recall, F1-score)
+Precision
 
 🛠️ Kullanılan Kütüphaneler
 pandas
