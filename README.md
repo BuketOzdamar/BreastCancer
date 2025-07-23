@@ -4,17 +4,21 @@ Bu proje, meme kanseri teşhisine yardımcı olmak amacıyla gerçekleştirilen 
 📁 Veri Kümesi
 Veri kümesi, meme kanseri hücre örnekleri üzerine toplanmış 9 adet nitelik ve 1 hedef sınıftan oluşmaktadır.
 
-Özellik	Açıklama
-ClumpThickness	Hücre yığınlarının kalınlığı
-UniformityCellSize	Hücre boyutlarının benzerliği
-UniformityCellShape	Hücre şekillerinin benzerliği
-MarginalAdhesion	Hücrelerin birbirine yapışma düzeyi
-SingleEpithelialCellSize	Tekil epitelyal hücre büyüklüğü
-BareNuclei	Hücre çekirdeği içeriği
-BlandChromatin	Kromatin yapısının düzlüğü
-NormalNucleoli	Normal nükleol sayısı
-Mitoses	Hücre bölünme sayısı
-Malignite	Hedef değişken – 2: Benign, 4: Malign (0 ve 1’e çevrilmiştir)
+## 📊 Özellik Açıklamaları (Breast Cancer Dataset)
+
+| Özellik Adı                    | Açıklama                                                                 |
+|-------------------------------|--------------------------------------------------------------------------|
+| `ClumpThickness`              | Hücre yığınlarının kalınlığı. Kalınlık arttıkça malignite riski artar. |
+| `UniformityCellSize`          | Hücre boyutlarının tutarlılığı. Yüksek değerler düzensiz hücre boyutlarına işaret eder. |
+| `UniformityCellShape`         | Hücre şekillerinin tutarlılığı. Yüksek skorlar, şekil bozukluklarını gösterir. |
+| `MarginalAdhesion`            | Hücrelerin kenar yapışkanlığı. Düşük yapışkanlık, hücrelerin ayrıştığını gösterir. |
+| `SingleEpithelialCellSize`    | Tekil epitelyal hücrelerin boyutu. Artan büyüklük, anormalliğe işaret edebilir. |
+| `BareNuclei`                  | Çevresiz (çıplak) çekirdek sayısı. Yüksek değerler, malign hücre göstergesi olabilir. |
+| `BlandChromatin`              | Kromatin yapısının düzenliliği. Düzensiz yapı, hücrelerin kanserli olabileceğini gösterir. |
+| `NormalNucleoli`              | Nükleol (çekirdekçik) sayısı. Normalden fazla nükleol, hücre anormalliğini gösterir. |
+| `Mitoses`                     | Hücre bölünme oranı. Yüksek mitoz, hızlı hücre çoğalmasına ve tümör riskine işaret eder. |
+| `Malignite`                   | Hedef sınıf. `2 = Benign (iyi huylu)`, `4 = Malign (kötü huylu)` olarak etiketlenmiştir. |
+
 
 🔍 Yapılan Analizler
 🧪 EDA (Keşifsel Veri Analizi)
